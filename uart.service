@@ -1,0 +1,11 @@
+[Unit]
+Description=car uart
+After=carKeyboard.service
+
+[Service]
+ExecStart=/home/lckfb/car/uart
+User=root
+Type=simple
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,35 @@
+{
+    "python.linting.enabled": true,
+    "python.languageServer": "Pylance",
+    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportMissingModuleSource": "none"
+    },
+    "micropico.syncFolder": "",
+    "micropico.openOnStart": true,
+    "python.analysis.typeshedPaths": [
+        "~\\.micropico-stubs\\included"
+    ],
+    "python.analysis.extraPaths": [
+        "~\\.micropico-stubs\\included"
+    ],
+    "python.analysis.autoImportCompletions": true,
+    "MicroPython.executeButton": [
+        {
+            "text": "▶",
+            "tooltip": "运行",
+            "alignment": "left",
+            "command": "extension.executeFile",
+            "priority": 3.5
+        }
+    ],
+    "MicroPython.syncButton": [
+        {
+            "text": "$(sync)",
+            "tooltip": "同步",
+            "alignment": "left",
+            "command": "extension.execute",
+            "priority": 4
+        }
+    ]
+}

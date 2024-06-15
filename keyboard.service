@@ -1,0 +1,11 @@
+[Unit]
+Description=car keyboard
+After=network.target
+
+[Service]
+ExecStart=/home/lckfb/car/keyboard
+User=root
+Type=simple
+
+[Install]
+WantedBy=multi-user.target
