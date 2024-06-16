@@ -9,6 +9,7 @@
 		}
 	],
 	"settings": {
+		"python.languageServer": "Pylance",
 		"MicroPython.executeButton": [
 			{
 				"text": "▶",
